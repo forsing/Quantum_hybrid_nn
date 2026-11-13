@@ -14,9 +14,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -314,20 +314,20 @@ Posebnost: Kvantne amplitude + analiticki backprop
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6774 | Prosek pogodaka: 1.242
 Test       -> NLL: 3.6781 | Prosek pogodaka: 1.290
-NEXT       -> [4, 5, 9, 21, 23, 26, 28]
+NEXT       -> [4, x, 9, y, 23, z, 28]
 
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6798 | Prosek pogodaka: 1.268
 Test       -> NLL: 3.6804 | Prosek pogodaka: 1.338
-NEXT       -> [5, 7, 21, 22, 26, 31, 37]
+NEXT       -> [5, x, 21, y, 26, z, 37]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6809 | Prosek pogodaka: 1.308
 Test       -> NLL: 3.6867 | Prosek pogodaka: 1.253
-NEXT       -> [4, 5, 11, 20, 29, 34, 39]
+NEXT       -> [4, x, 11, y, 29, z, 39]
 ----------------------------------------------------
 """
 
